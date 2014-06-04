@@ -2,7 +2,7 @@ language: c
 before_install:
   # Install dependencies
   - sudo apt-get update -qq
-  - sudo apt-get install dtach libxpm-dev libxml2-dev libxapian-dev libgmime-2.6-dev libtalloc-dev python-sphinx
+  - sudo apt-get install dtach texinfo libxpm-dev libxml2-dev libxapian-dev libgmime-2.6-dev libtalloc-dev python-sphinx
 
   # Install EVM and the version of emacs to be used.
   - sudo mkdir /usr/local/evm
